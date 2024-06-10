@@ -1,0 +1,22 @@
+.btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: blue;
+    font-size: 18px;
+    border: none;
+}
+.dropDown{
+    width: 100px;
+    padding: 0;
+}
+.btnContainer{
+    display: flex;
+    
+}
+.btn:hover{
+    border: 1px solid blue;
+}

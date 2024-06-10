@@ -1,0 +1,58 @@
+.tableContainer{
+    width: 70%;
+    height:80vh;
+   
+   }
+   
+   .tableHead{
+       background-color: rgb(88, 7, 248);
+       display: flex;
+       padding: 20px 0px;
+        height: 10%;
+       width: 100%;
+       color: white;
+   
+       
+   }
+   
+   td{
+       text-align: center;
+       padding: 10px;
+       border: 1px solid white;
+       
+       
+   }
+   .idColumn{
+       width: 100px;
+       text-align: center;
+   }
+   .titleColumn{
+       width: 38%;
+       text-align: center; 
+   }
+   .detailColumn{
+       width: 100%;
+       text-align: center; 
+   }
+   .dataBody{
+       background-color: rgb(231, 228, 228);
+       height: 90%;
+       overflow-y: auto;
+       /* border: 5px solid red; */
+   }
+   table{
+       height:100%;
+   }
+   .container{
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       padding: 20px;
+       gap: 20px;
+       border: 2px solid black;
+       /* justify-content: center; */
+     }
+   
+   
